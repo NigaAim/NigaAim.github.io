@@ -191,6 +191,7 @@ html {
 .contact-section ul li img {
     width: 100px;
     border-radius: 100%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
     transition: all 0.2s linear;
 }
 

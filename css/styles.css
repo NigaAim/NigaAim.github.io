@@ -1,0 +1,196 @@
+@font-face {
+    font-family: "BebasNeue Bold";
+    src: url("../assets/BebasNeue\ Bold.otf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "BebasNeue Bold", serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    background:white;
+}
+
+.navbar{
+    user-select: none;
+    height: 6vh;
+    width: 100%;
+    background: white;
+    position: fixed;
+    z-index: 200;
+    user-select: none;
+}
+
+.navbar .logo {
+    float: left;
+    margin: 0 30px;
+}
+
+.navbar .logo img {
+    vertical-align: middle;
+    line-height: 6vh;
+}
+
+.navbar .logo a {
+    color: rgba(0, 0, 0, 0.9);
+    text-decoration: none;
+    font-size: 48px;
+    font-weight: bold;
+    padding: auto 25px;
+    line-height: 6vh;
+}
+
+.navbar img{
+    width: auto;
+    height: 3vh;
+    vertical-align: middle;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 6vh;
+}
+
+.navbar ul li a{
+    font-weight: bold;
+    font-size: 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    margin: 0px 10px;
+}
+
+.navbar ul li a:hover{
+    color: rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 600px) {
+    .navbar ul {
+        position: fixed;
+        width: 100%;
+        height: auto;
+        background: rgba(0, 0, 0, 0.5);
+        top: -100%;
+        left: 0;
+        text-align: center;
+        transition: 0.5s;
+    }
+}
+
+.top-section {
+    text-align: center;
+}
+
+.top-section img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.member-section {
+    text-align: center;
+}
+
+.member-section h1 {
+    font-size: 72px;
+    line-height: 72px;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.member-section h2 {
+    color: rgb(75, 75, 75);
+    font-size: 32px;
+    line-height: 48px;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.member-section .context {
+    max-width: 90vh;
+    margin: auto auto;
+    text-align: center;
+}
+
+.member-section ul {
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.member-section ul li {
+    display: inline-block;
+    margin: 25px 25px;
+}
+
+.member-section ul li img{
+    width: 128px;
+    border-radius: 100%;
+    background: black;
+    border: solid 4px black;
+    box-shadow: 0 0 12px rgb(0, 0, 0, 0.4);
+}
+
+.member-section ul li a{
+    color: black;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+    transition: all 0.2s linear;
+}
+
+.member-section ul li a p {
+    margin-top: 0px;
+    transition: all 0.2s linear;
+}
+
+.member-section ul li a:hover {
+    opacity: 0.7;
+}
+
+.member-section ul li a:hover p{
+    opacity: 0.7;
+}
+
+.contact-section {
+    text-align: center;
+}
+
+.contact-section h1 {
+    font-size: 72px;
+    line-height: 72px;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.contact-section h2 {
+    font-size: 32px;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    margin: 50px 50px;
+}
+
+.contact-section ul{
+    list-style-type: none;
+}
+
+.contact-section ul li {
+    display: inline-table;
+    margin: 25px 25px;
+}
+
+.contact-section ul li img {
+    width: 100px;
+    border-radius: 100%;
+    transition: all 0.2s linear;
+}
+
+.contact-section ul li img:hover {
+    opacity: 0.5;
+}

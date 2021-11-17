@@ -94,8 +94,9 @@ html {
 .top-section {
     text-align: center;
     width: 100%;
-    height: 100vh;
-    background-image: url(../assets/nigaAim.png);
+    height: 110vh;
+    background: url(../assets/nigaAim.png);
+    background: linear-gradient(rgba(255, 255, 255, 0) 100vh, rgba(255,255,255,255)), url(../assets/nigaAim.png);
     background-size: cover;
     background-position: center top;
 }

@@ -32,6 +32,12 @@ sr.reveal(".member-section ul li", {
     duration: 1000
 });
 
+sr.reveal(".member-section a", {
+    delay: 200,
+    opacity: 0,
+    duration: 1000
+});
+
 sr.reveal(".contact-section h1", {
     delay:200,
     opacity: 0,

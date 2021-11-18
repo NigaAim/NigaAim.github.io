@@ -12,6 +12,24 @@ sr.reveal(".top-section", {
     duration: 3000
 });
 
+sr.reveal(".about-section h1", {
+    delay: 200,
+    opacity: 0,
+    duration: 2000
+});
+
+sr.reveal(".about-section h2", {
+    delay: 200,
+    opacity: 0,
+    duration: 2000
+});
+
+sr.reveal(".about-section .context", {
+    delay: 200,
+    opacity: 0,
+    duration: 2000
+});
+
 sr.reveal(".member-section h1", {
     delay: 200,
     opacity: 0,

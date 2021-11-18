@@ -9,34 +9,28 @@ sr.reveal(".navbar", {
 sr.reveal(".profile-section h1", {
     opacity: 0,
     delay: 200,
-    duration: 2000
+    duration: 1500
 });
 
 sr.reveal(".profile-section h2", {
     opacity: 0,
-    delay: 1000,
-    duration: 1500
+    delay: 500,
+    duration: 500,
+    origin: "bottom",
+    distance: "50px",
+    easing: 'linear'
 });
 
 sr.reveal(".profile-section img", {
     opacity: 0,
-    delay: 1000,
-    duration: 1500
+    delay: 700,
+    duration: 500,
+    origin: "bottom",
+    distance: "100px",
+    easing: 'linear'
 });
 
-sr.reveal(".profile-section .context h2", {
-    opacity: 0,
-    delay: 200,
-    duration: 2000
-});
-
-sr.reveal(".profile-section p", {
-    opacity: 0,
-    delay: 1000,
-    duration: 1500
-});
-
-sr.reveal(".profile-section #twitter", {
+sr.reveal(".profile-section .context", {
     opacity: 0,
     delay: 1000,
     duration: 1500

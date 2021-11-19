@@ -162,7 +162,7 @@ html {
 
 .about-section .context img {
     width: 300px;
-    max-width: 80vh;
+    max-width: 100%;
     background: black;
     border: solid 1px black;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);

@@ -50,6 +50,13 @@ sr.reveal(".member-section ul li", {
     duration: 1000
 });
 
+sr.reveal(".member-section ul li#button", {
+    delay: 600,
+    opacity: 0,
+    duration: 1500,
+    distance: "0px"
+});
+
 sr.reveal(".member-section a", {
     delay: 200,
     opacity: 0,
